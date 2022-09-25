@@ -6,7 +6,7 @@ import yfinance as yf
 st.title('Test')
 
 tickers = ('TSLA', 'AAPL', 'MSFT', 'BTC-USD', 'ETH-USD',
-           'XDC-USD', 'CUDOS-USD', 'OMI-USD', 'LINK-USD', 'QNT-USD', 'FTSE 100')
+           'XDC-USD', 'CUDOS-USD', 'OMI-USD', 'LINK-USD', 'QNT-USD', '^FTSE')
 
 dropdown = st.multiselect('Pick your assets', tickers)
 
