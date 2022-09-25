@@ -2,6 +2,7 @@ from itertools import dropwhile
 import streamlit as st
 import pandas as pd
 import yfinance as yf
+import numpy as np
 
 st.title('Test')
 
