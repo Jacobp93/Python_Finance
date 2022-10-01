@@ -7,7 +7,7 @@ import yfinance as yf
 st.title('JPs Finance App')
 
 col1 = st.sidebar
-col2, col3 = st.columns((2, 1))
+col2, col3 = st.columns(2)
 
 col1.header('Input Options')
 
