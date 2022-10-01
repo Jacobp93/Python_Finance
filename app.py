@@ -36,8 +36,6 @@ expander_bar.markdown("""
 """)
 
 
-st.write("please upload file to the application")
-
 tickers = ('^FTSE', '^FTMC', '^GSPC', '^DJI', 'GC=F', 'CL=F', 'SI=F', 'GBPUSD=X', 'GBPEUR=X', 'TSLA', 'AAPL', 'MSFT', 'BTC-USD', 'ETH-USD',
            'XDC-USD', 'CUDOS-USD', 'OMI-USD', 'LINK-USD', 'QNT-USD')
 
