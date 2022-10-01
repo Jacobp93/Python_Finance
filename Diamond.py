@@ -20,7 +20,7 @@ st.set_page_config(layout="wide")
 # Title
 
 
-st.title('JP_App')
+st.title('Project Diamond App')
 st.markdown("""
 This app collates and breaks down project diamond data 
 """)
