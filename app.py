@@ -3,10 +3,16 @@ import streamlit as st
 import pandas as pd
 import yfinance as yf
 
-st.title('Test')
+st.set_page_config(layout="wide")
+st.title('JPs Finance App')
 
-tickers = ('^FTSE', '^FTMC', '^GSPC', '^DJI', 'GC=F', 'CL=F', 'SI=F', 'GBPUSD=X', 'GBPEUR=X', 'TSLA', 'AAPL', 'MSFT', 'BTC-USD', 'ETH-USD',
-           'XDC-USD', 'CUDOS-USD', 'OMI-USD', 'LINK-USD', 'QNT-USD')
+col1 = st.sidebar
+col2, col3 = st.columns((2, 1))
+
+col1.header('Input Options')
+
+tickers = col1.selectbox('^FTSE', '^FTMC', '^GSPC', '^DJI', 'GC=F', 'CL=F', 'SI=F', 'GBPUSD=X', 'GBPEUR=X', 'TSLA', 'AAPL', 'MSFT', 'BTC-USD', 'ETH-USD',
+                         'XDC-USD', 'CUDOS-USD', 'OMI-USD', 'LINK-USD', 'QNT-USD')
 
 dropdown = st.multiselect('Pick your assets', tickers)
 
