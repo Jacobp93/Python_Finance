@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import yfinance as yf
 
-st.set_page_config(layout="wide")
+# st.set_page_config(layout="wide")
 st.title('JPs Finance App')
 
 col1 = st.sidebar
