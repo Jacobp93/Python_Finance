@@ -22,7 +22,7 @@ st.set_page_config(layout="wide")
 
 st.title('JP_App')
 st.markdown("""
-This app collates and breaks down project diamond data 
+This app compares cumulitive returns from a choosen start date against the selected financial assets, along with other analysis 
 """)
 
 
