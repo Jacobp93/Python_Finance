@@ -20,9 +20,9 @@ st.set_page_config(layout="wide")
 
 
 st.title('JP_App')
-st.markdown(""""
+st.markdown("""
 This app compares cumulitive returns from a choosen start date against the selected financial assets, along with other analysis 
-"""")
+""")
 
 
 #---------------------------------#
